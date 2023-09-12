@@ -1,0 +1,10 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: zk-payment-service
+  cloud:
+    zookeeper:
+      connect-string: 113.125.79.76:2181
+
