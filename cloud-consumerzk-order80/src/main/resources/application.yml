@@ -1,0 +1,8 @@
+server:
+  port: 80
+spring:
+  application:
+    name: zk-consumer-server
+  cloud:
+    zookeeper:
+      connect-string: 113.125.79.76:2181
